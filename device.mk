@@ -33,11 +33,11 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 3168
-TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
@@ -45,4 +45,4 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
 # Inherit from vendor blobs
-#$(call inherit-product, vendor/oneplus/instantnoodlep/instantnoodlep-vendor.mk)
+#$(call inherit-product, vendor/oneplus/instantnoodle/instantnoodle-vendor.mk)

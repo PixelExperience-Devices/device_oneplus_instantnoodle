@@ -17,21 +17,21 @@
 # Inherit from oneplus sm8250-common
 -include device/oneplus/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/instantnoodlep
+DEVICE_PATH := device/oneplus/instantnoodle
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Display
-TARGET_SCREEN_DENSITY := 560
+TARGET_SCREEN_DENSITY := 420
 
 # Fingerprint
-SOONG_CONFIG_ONEPLUS_KONA_FOD_POS_X = 604
-SOONG_CONFIG_ONEPLUS_KONA_FOD_POS_Y = 2434
-SOONG_CONFIG_ONEPLUS_KONA_FOD_SIZE = 232
+SOONG_CONFIG_ONEPLUS_KONA_FOD_POS_X = 453
+SOONG_CONFIG_ONEPLUS_KONA_FOD_POS_Y = 1823
+SOONG_CONFIG_ONEPLUS_KONA_FOD_SIZE = 174
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
 # inherit from the proprietary version
--include vendor/oneplus/instantnoodlep/BoardConfigVendor.mk
+-include vendor/oneplus/instantnoodle/BoardConfigVendor.mk
