@@ -1,2 +1,9 @@
 # Display
-ro.sf.lcd_density=560
+ro.sf.lcd_density=420
+
+# Surfaceflinger
+ro.surface_flinger.set_idle_timer_ms=4000
+ro.surface_flinger.set_touch_timer_ms=4000
+ro.surface_flinger.set_display_power_timer_ms=1000
+ro.surface_flinger.use_smart_90_for_video=true
+ro.surface_flinger.refresh_rate_switching=true

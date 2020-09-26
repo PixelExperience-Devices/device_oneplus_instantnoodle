@@ -372,8 +372,8 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M 0, 0
-        H 44
-        V 44
+        H 48
+        V 48
         H 0
         L 0, 0
         @dp
@@ -381,11 +381,11 @@
     </string>
 
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">153px</dimen>
-    <dimen name="status_bar_height_landscape">153px</dimen>
+    <dimen name="status_bar_height_portrait">48dp</dimen>
+    <dimen name="status_bar_height_landscape">48dp</dimen>
 
     <!-- The default peak refresh rate for a given device. -->
-    <integer name="config_defaultPeakRefreshRate">120</integer>
+    <integer name="config_defaultPeakRefreshRate">90</integer>
 
     <!-- Not allow to switch to higher refresh rate when (display, ambient) brightness falls into
          the region defined by the two arrays -->
@@ -397,5 +397,5 @@
     </integer-array>
 
     <!-- default refresh rate in the zone defined by brightness and ambient thresholds -->
-    <integer name="config_defaultRefreshRateInZone">120</integer>
+    <integer name="config_defaultRefreshRateInZone">90</integer>
 </resources>
