@@ -25,5 +25,5 @@
     <!-- Margin on the right side of the system icon group on Keyguard. -->
     <dimen name="system_icons_keyguard_padding_end">2dp</dimen>
 
-    <dimen name="rounded_corner_content_padding">8px</dimen>
+    <dimen name="rounded_corner_content_padding">12px</dimen>
 </resources>
