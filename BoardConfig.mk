@@ -5,7 +5,7 @@
 #
 
 # Include the common OEM chipset BoardConfig.
--include device/oneplus/sm8250-common/BoardConfigCommon.mk
+include device/oneplus/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/instantnoodle
 
@@ -32,4 +32,4 @@ SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL := INCLUDE_DIR
 SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL_INCLUDE_DIR := $(DEVICE_PATH)/touch/include
 
 # Include the proprietary files BoardConfig.
--include vendor/oneplus/instantnoodle/BoardConfigVendor.mk
+include vendor/oneplus/instantnoodle/BoardConfigVendor.mk
