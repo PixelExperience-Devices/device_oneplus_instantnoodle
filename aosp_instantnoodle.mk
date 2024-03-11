@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/instantnoodle/device.mk)
 
 # Inherit OnePlus firmware
-$(call inherit-product, vendor/oneplus/instantnoodle/Android.mk
+$(call inherit-product, vendor/oneplus/instantnoodle/Android.mk)
 
 # Inherit some common Pixel Experience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
